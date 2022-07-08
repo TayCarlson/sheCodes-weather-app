@@ -1,0 +1,119 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/375/original/sky-blue-pink-1.jpg?1653598841);
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 2px;
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  padding-top: 20px;
+  padding-left: 125px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h5 {
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+
+.weather-app {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/375/original/sky-blue-pink-1.jpg?1653598841);
+  margin: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.cloud {
+  display: inline-block;
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.weather-details {
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 110px;
+}
+
+.current-temp {
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  font-size: 200px;
+  padding-top: 100px;
+}
+
+.units {
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 85px;
+}
+
+#celcius-link,
+#fahrenheit-link {
+  text-decoration: none;
+  color: white;
+}
+
+#celcius-link:hover,
+#fahrenheit-link:hover {
+  color: #6c63ff;
+}
+
+.future-forcast {
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  color: #6c63ff;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+.saturday:hover {
+  color: white;
+  cursor: default;
+  transition: all 200ms ease;
+}
+
+.sunday:hover {
+  color: white;
+  cursor: default;
+}
+
+.monday:hover {
+  color: white;
+  cursor: default;
+}
+
+.tuesday:hover {
+  color: white;
+  cursor: default;
+}
+
+.wednesday:hover {
+  color: white;
+  cursor: default;
+}
