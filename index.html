@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>WeatherApp</title>
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <div class="row">
+          <div class="col text-center">
+            <form class="search-form" id="search-form">
+              <input
+                type="text"
+                placeholder="Enter City"
+                class="enter-city"
+                id="city-input"
+                autocomplete="off"
+              />
+              <input
+                class="btn btn-outline-light search-button shadow"
+                type="submit"
+                value="Search"
+                id="search-city"
+              />
+
+              <input
+                class="btn btn-outline-light current-button shadow"
+                type="submit"
+                value="Current location"
+                id="current-location"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h1 id="city">Las Vegas</h1>
+
+            <div class="float-left">
+              <span class="time">
+                <h5>Friday, June 23, 2022</h5>
+              </span>
+            </div>
+
+            <div class="clearfix">
+              <div style="float: left">
+                <img
+                  src="images/cloud.svg"
+                  alt="women on cloud"
+                  class="cloud"
+                />
+              </div>
+            </div>
+
+            <div class="float-left">
+              <span class="weather-details">
+                <ul>
+                  <li>Conditions: <span id="description"></span></li>
+                  <li>Humidity: <span id="humidity">10</span>%</li>
+                  <li>Wind: <span id="wind">19</span>km</li>
+                </ul>
+              </span>
+            </div>
+          </div>
+
+          <div class="col align-self-center">
+            <p class="current-temp">
+              <span class="units">
+                <a href="#" id="celcius-link">°C</a> |
+                <a href="#" id="fahrenheit-link"> °F </a>
+              </span>
+              <span id="temp"> 36° </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col text-center">
+            <div class="future-forcast">
+              <div class="saturday">
+                Sat ☁
+                <br />
+                <strong> 35° </strong>
+                <br />
+                18°
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="future-forcast">
+              <div class="sunday">
+                Sun ☁
+                <br />
+                <strong> 30° </strong>
+                <br />
+                13°
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="future-forcast">
+              <div class="monday">
+                Mon ☁
+                <br />
+                <strong> 26° </strong>
+                <br />
+                14°
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="future-forcast">
+              <div class="tuesday">
+                Tue ⛅
+                <br />
+                <strong> 25° </strong>
+                <br />
+                12°
+              </div>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="future-forcast">
+              <div class="wednesday">
+                Wed ⛅
+                <br />
+                <strong> 24° </strong>
+                <br />
+                11°
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
