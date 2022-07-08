@@ -117,3 +117,10 @@ h5 {
   color: white;
   cursor: default;
 }
+
+.coder {
+  display: block;
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
